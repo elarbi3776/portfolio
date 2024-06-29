@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="-y1KXkxsAzFscGnxsJ9lIz1rV3DdnTByMyAL9zucYSQ" />
+    <meta name="keywords" content="HADJI ELARBI, étudiant en génie informatique, développeur web, développeur full-stack">
+    <meta name="author" content="HADJI ELARBI">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==" referrerpolicy="no-referrer">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>HADJI ELARBI | Étudiant en Génie Informatique</title>
+    <style>
+        #loader {
+            background: #000 url('assets/img/loader.gif') no-repeat center;
+            background-size: 15%;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            z-index: 10000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loader"></div>
+    <script>
+        window.addEventListener('load', function () {
+            let x = document.getElementById('loader');
+            x.style.display = 'none';
+        })
+    </script>
+
+    <header>
+        <a href="#" class="logo">HADJI <span>ELARBI</span>.</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <!-- <li><a href="#contact">Contact</a></li>   -->
+        </ul>
+        <!-- <div class="bx bx-moon" id="darkmode"></div>  -->
+    </header>
+
+    <section class="home" id="home">
+        <div class="social">
+            <a href="www.linkedin.com/in/el-arbi-h-a3572613b"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="assets/img/main.png" alt="Image of HADJI ELARBI">
+        </div>
+        <div class="home-text">
+            <h1>HADJI ELARBI</h1>
+            <p>Étudiant ingénieur d'État, en 4ème année, à la recherche d’une opportunité de stage PFA de deux mois dans le domaine de développement informatique.</p>
+            <a href="https://github.com/HADJI-ELARBI" class="btn">Télécharger le CV</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>À propos de moi</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="assets/img/main.png" alt="Image of HADJI ELARBI">
+            </div>
+            <div class="about-text">
+                <p>Êtes-vous à la recherche d'un stagiaire motivé en développement informatique pour rejoindre votre équipe ? Ne cherchez plus ! En tant qu'étudiant en 4ème année de Génie Informatique, je suis passionné par la création de solutions innovantes et efficaces. Je suis déterminé à appliquer mes compétences en développement web et en programmation pour contribuer à vos projets. Je comprends l'importance de développement robustes, sécurisés et conviviaux. Que vous ayez besoin de renfort sur un projet existant ou d'assistance pour de nouveaux développements, je suis prêt à relever le défi. Contactez-moi dès maintenant pour discuter de vos besoins et de la façon dont je peux apporter une valeur ajoutée à votre équipe.</p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class="bx bxs-phone"></i>
+                        <span>+212 6 19 07 48 39</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="bx bxs-envelope"></i>
+                        <span><a href="mailto:hadji3776@gmail.com">Hadji3776@GMAIL.COM</a></span>
+                    </div>
+                
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Compétences</h2>
+            <span>Compétences</span>
+        </div>
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box placeholder-wave">
+                    <h3>JAVA</h3>
+                    <span>50%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box placeholder-wave">
+                    <h3>C</h3>
+                    <span>65%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box placeholder-wave">
+                    <h3>SpringBoot(J2EE)</h3>
+                    <span>60%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar jee-bar"></div>
+                </div>
+                <div class="bars-box placeholder-wave">
+                    <h3>SQL-MYSQL</h3>
+                    <span>50%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box placeholder-wave">
+                    <h3>LINUX</h3>
+                    <span>60%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="assets/img/main.png" alt="Image of HADJI ELARBI">
+            </div>
+        </div>
+    </section>
+
+<!--   <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-content">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Developpment web</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-bookmark-heart"></i>
+                <h3>UI/UX Design</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bxl-android"></i>
+                <h3>App Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+-->
+
+<!--    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Contacter moi</span>
+        </div>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Write Message Here..." required rows="10"></textarea>
+                <input type="submit" class="contact-button" value="Send">
+            </form>
+        </div>
+    </section> 
+ -->
+
+    <div class="footer">
+        <h2>Suiver moi</h2>
+        <div class="footer-social">
+            <a href="www.linkedin.com/in/el-arbi-h-a3572613b"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
