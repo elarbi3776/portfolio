@@ -263,11 +263,11 @@
    border-radius: 0.5rem;
  }
 
- .html-bar {
-   width: 50%;
+ .django-bar {
+   width: 60%;
  }
 
- .css-bar {
+ .c-bar {
    width: 65%;
  }
 
@@ -275,13 +275,17 @@
   width: 60%;
 }
 
- .js-bar {
+ .sql-bar {
    width: 50%;
  }
 
- .react-bar {
+ .linux-bar {
    width: 60%;
  }
+
+ .php-bar {
+  width: 70%;
+}
 
  .services-content {
    display: grid;
